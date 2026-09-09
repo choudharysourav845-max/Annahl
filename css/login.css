@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+
+/* =========================
+   LOGIN PAGE
+========================= */
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    border-top: 3px solid #333;
+}
+
+/* =========================
+   LOGIN BOX
+========================= */
+.login-box {
+    width: 100%;
+    max-width: 500px;
+    padding: 70px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,.05);
+}
+
+/* =========================
+   HEADING
+========================= */
+
+.login-heading {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+.login-heading h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #30180d;
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+}
+.login-heading p {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+
+/* =========================
+   INPUT
+========================= */
+
+.input-group-box {
+    position: relative;
+
+    margin-bottom: 30px;
+}
+.form-floating > .form-control {
+    height: 1.4375em;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    font-size: 13px;
+    color: currentColor;
+    box-shadow: none;
+    padding: 16.5px 14px;
+}
+.form-floating > .form-control:focus {
+    border-color: #777;
+
+    box-shadow: none;
+}
+
+
+/* Floating Label */
+
+.form-floating > label {
+    color: #555;
+
+    font-size: 15px;
+}
+
+
+/* =========================
+   PASSWORD
+========================= */
+
+.password-box .form-control {
+    padding-right: 55px;
+}
+
+.password-toggle {
+    position: absolute;
+
+    right: 15px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    border: none;
+
+    background: transparent;
+
+    color: #777;
+
+    font-size: 18px;
+
+    z-index: 10;
+
+    cursor: pointer;
+}
+
+.password-toggle:hover {
+    color: #222;
+}
+
+
+/* =========================
+   ERROR
+========================= */
+
+.error-message {
+    position: absolute;
+
+    left: 0;
+    bottom: -22px;
+
+    font-size: 12px;
+
+    color: #dc3545;
+}
+
+.input-error {
+    border-color: #dc3545 !important;
+}
+
+
+/* =========================
+   OPTIONS
+========================= */
+
+.login-options {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+}
+
+
+/* Remember */
+
+.remember-box {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+}
+.remember-box input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #666;
+    color: rgb(0 0 0 / 60%);
+}
+.remember-box label {
+    font-size: 14px;
+    color: #212529;
+    cursor: pointer;
+}
+
+/* Forgot Password */
+
+.forgot-link {
+    font-size: 16px;
+
+    font-weight: 500;
+
+    color: #246fea;
+
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   LOGIN BUTTON
+========================= */
+.login-btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #b83806!important;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-btn:hover {
+    background: #a92e04;
+}
+
+
+/* =========================
+   SOCIAL
+========================= */
+
+.social-login {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+.social-btn {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+/* Facebook */
+
+.facebook {
+    background: #3f5f9f;
+}
+
+.facebook:hover {
+    background: #304d87;
+
+    color: #fff;
+}
+
+
+/* Twitter */
+
+.twitter {
+    background: #55ace0;
+}
+
+.twitter:hover {
+    background: #3b96ca;
+
+    color: #fff;
+}
+
+
+/* LinkedIn */
+
+.linkedin {
+    background: #007bb5;
+}
+
+.linkedin:hover {
+    background: #006492;
+
+    color: #fff;
+}
+
+
+/* =========================
+   REGISTER
+========================= */
+.register-text {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #666;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.register-text a {
+    color: #0077b5;
+
+    text-decoration: none;
+
+    margin-left: 10px;
+
+    font-weight: 500;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 767px) {
+
+    .login-page {
+        padding: 25px 15px;
+    }
+    
+    .shape-1f {
+       display: none;
+    }
+
+    .shape-2 {
+       display: none;
+    }
+    .banner-section {
+    
+    min-height: 300px;
+   
+}
+
+    .login-box {
+        min-height: auto;
+
+        padding: 50px 25px;
+
+        border-radius: 10px;
+    }
+
+    .login-heading h1 {
+        font-size: 34px;
+
+        margin-bottom: 18px;
+    }
+
+    .login-heading p {
+        font-size: 15px;
+    }
+
+    .login-options {
+        margin-top: 30px;
+
+        margin-bottom: 30px;
+    }
+
+    .remember-box {
+        gap: 10px;
+    }
+
+    .remember-box input {
+        width: 21px;
+        height: 21px;
+    }
+
+    .remember-box label {
+        font-size: 14px;
+    }
+
+    .forgot-link {
+        font-size: 14px;
+    }
+
+    .social-btn {
+        width: 30%;
+    }
+
+    .register-text {
+        font-size: 13px;
+    }
+
+    .register-text a {
+        margin-left: 5px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+    .login-box {
+        padding: 40px 18px;
+    }
+
+    .login-heading h1 {
+        font-size: 30px;
+    }
+
+    .login-options {
+        align-items: flex-start;
+    }
+
+    .remember-box label {
+        font-size: 13px;
+    }
+
+    .forgot-link {
+        font-size: 13px;
+    }
+
+    .social-login {
+        gap: 8px;
+    }
+
+    .social-btn {
+        width: 31%;
+    }
+
+    .register-text {
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+    .register-text a {
+        margin-left: 0;
+    }
+}

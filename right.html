@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Annahl Header</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/right.css">
+</head>
+
+<body>
+
+
+    <!-- =====================================================
+     HEADER
+===================================================== -->
+
+    <header class="main-header">
+
+        <div class="container">
+
+            <div class="header-inner">
+
+
+                <!-- =================================================
+                 LOGO
+            ================================================== -->
+
+                <a href="#" class="navbar-brand logo">
+
+                    <img src="images/logo.png" alt="Annahl Logo">
+
+                    <span>Annahl</span>
+
+                </a>
+
+
+
+                <!-- =================================================
+                 DESKTOP NAVIGATION
+            ================================================== -->
+
+                <nav class="main-nav">
+
+                    <ul>
+
+
+                        <!-- HOME -->
+
+                        <li>
+
+                            <a href="index.html" class="active">
+
+                                Home
+
+                                <span class="home-small-icon">
+                                    ♧
+                                </span>
+
+                            </a>
+
+                        </li>
+
+
+                        <!-- ABOUT -->
+
+                        <li>
+
+                            <a href="about.html">
+                                About
+                            </a>
+
+                        </li>
+
+
+                        <!-- SHOP -->
+
+                        <li>
+
+                            <a href="shop.html">
+                                Shop
+                            </a>
+
+                        </li>
+
+
+                        <!-- =================================================
+                         PAGES
+                    ================================================== -->
+
+                        <li class="nav-dropdown">
+
+                            <a href="#" class="nav-dropdown-link">
+
+                                Pages
+
+                            </a>
+
+
+                            <div class="dropdown-menu-custom">
+
+
+                                <a href="cart.html">
+                                    Cart
+                                </a>
+
+
+                                <a href="wishlist.html">
+                                    Wishlist
+                                </a>
+
+
+                                <a href="checkout.html">
+                                    Checkout
+                                </a>
+
+
+                                <a href="error.html">
+                                    404 Error
+                                </a>
+
+
+                                <!-- PRODUCT -->
+
+                                <div class="nested-dropdown">
+
+                                    <a href="index.html">
+
+                                        <span>
+                                            Product
+                                        </span>
+
+                                        <i class="fa-solid fa-chevron-right"></i>
+
+                                    </a>
+
+
+                                    <div class="nested-menu">
+
+                                        <a href="shop.html">
+                                            Product
+                                        </a>
+
+                                        <a href="#">
+                                            Product Single
+                                        </a>
+
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- PROJECT -->
+
+                                <div class="nested-dropdown">
+
+                                    <a href="index.html">
+
+                                        <span>
+                                            Project
+                                        </span>
+
+                                        <i class="fa-solid fa-chevron-right"></i>
+
+                                    </a>
+
+
+                                    <div class="nested-menu">
+
+                                        <a href="project.html">
+                                            Project
+                                        </a>
+
+                                        <a href="#">
+                                            Project Single
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </li>
+
+
+
+                        <!-- =================================================
+                         BLOG
+                    ================================================== -->
+
+                        <li class="nav-dropdown">
+
+                            <a href="#" class="nav-dropdown-link">
+
+                                Blog
+
+                            </a>
+
+
+                            <div class="dropdown-menu-custom blog-menu">
+
+
+                                <a href="right.html">
+                                    Blog right sidebar
+                                </a>
+
+
+                                <a href="left.html">
+                                    Blog left sidebar
+                                </a>
+
+
+                                <a href="fullwidth.html">
+                                    Blog fullwidth
+                                </a>
+
+
+                            </div>
+
+                        </li>
+
+
+
+                        <!-- CONTACT -->
+
+                        <li>
+
+                            <a href="contact.html">
+                                Contact
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
+                </nav>
+
+
+
+                <!-- =================================================
+                 HEADER ICONS
+            ================================================== -->
+
+                <div class="header-icons">
+
+
+                    <!-- =================================================
+                     PROFILE
+                ================================================== -->
+
+                    <div class="profile-dropdown">
+
+
+                        <button type="button" class="header-icon profile-button">
+
+                            <i class="bi bi-person"></i>
+
+                        </button>
+
+
+                        <!-- PROFILE MENU -->
+
+                        <div class="profile-menu">
+
+                            <a href="#">
+                                Login
+                            </a>
+
+                            <a href="#">
+                                Register
+                            </a>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <!-- =================================================
+                     CART
+                ================================================== -->
+
+                    <button type="button" class="header-icon" data-bs-toggle="offcanvas" data-bs-target="#cartSidebar">
+
+                        <i class="bi bi-bag"></i>
+
+                        <span class="icon-count">
+                            0
+                        </span>
+
+                    </button>
+
+
+
+                    <!-- =================================================
+                     WISHLIST
+                ================================================== -->
+
+                    <button type="button" class="header-icon" data-bs-toggle="offcanvas"
+                        data-bs-target="#wishlistSidebar">
+
+                        <i class="bi bi-heart"></i>
+
+                        <span class="icon-count">
+                            0
+                        </span>
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- =================================================
+                 MOBILE MENU BUTTON
+            ================================================== -->
+
+                <button type="button" class="mobile-menu-btn" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileSidebar">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+     CART SIDEBAR
+===================================================== -->
+
+    <div class="offcanvas offcanvas-end cart-sidebar" tabindex="-1" id="cartSidebar">
+
+
+        <!-- CLOSE -->
+
+        <button type="button" class="sidebar-close" data-bs-dismiss="offcanvas">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <!-- CONTENT -->
+
+        <div class="sidebar-content">
+
+
+            <!-- EMPTY CART IMAGE -->
+
+            <div class="empty-cart-image">
+
+                <img src="images/empty-cart.png" alt="Empty Cart">
+
+            </div>
+
+
+            <!-- TOTAL -->
+
+            <div class="cart-total">
+
+                Total: $0
+
+            </div>
+
+
+            <!-- BUTTONS -->
+
+            <div class="cart-buttons">
+
+
+                <a href="checkout.html" class="cart-btn">
+
+                    Checkout
+
+                </a>
+
+
+                <a href="cart.html" class="cart-btn">
+
+                    View Cart
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+     WISHLIST SIDEBAR
+===================================================== -->
+
+    <div class="offcanvas offcanvas-end cart-sidebar" tabindex="-1" id="wishlistSidebar">
+
+
+        <!-- CLOSE -->
+
+        <button type="button" class="sidebar-close" data-bs-dismiss="offcanvas">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <!-- CONTENT -->
+
+        <div class="sidebar-content">
+
+
+            <!-- EMPTY WISHLIST IMAGE -->
+
+            <div class="empty-cart-image">
+
+                <img src="images/empty-cart.png" alt="Empty Wishlist">
+
+            </div>
+
+
+            <!-- TITLE -->
+
+            <div class="empty-title">
+
+                Your Wishlist is Empty
+
+            </div>
+
+
+            <!-- BUTTON -->
+
+            <div class="cart-buttons">
+
+                <a href="shop.html" class="cart-btn single-btn">
+
+                    Continue Shopping
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+     MOBILE SIDEBAR
+===================================================== -->
+
+    <div class="offcanvas offcanvas-end mobile-sidebar" tabindex="-1" id="mobileSidebar">
+
+
+        <!-- MOBILE HEADER -->
+
+        <div class="mobile-sidebar-header">
+
+
+            <span>
+                Menu
+            </span>
+
+
+            <button type="button" data-bs-dismiss="offcanvas">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+
+        </div>
+
+
+
+        <!-- MOBILE NAVIGATION -->
+
+        <div class="mobile-nav">
+
+
+            <a href="index.html">
+                Home
+            </a>
+
+
+            <a href="about.html">
+                About
+            </a>
+
+
+            <a href="shop.html">
+                Shop
+            </a>
+
+
+
+            <!-- =================================================
+             MOBILE PAGES
+        ================================================== -->
+
+            <div class="mobile-dropdown">
+
+
+                <button type="button" class="mobile-dropdown-btn">
+
+                    <span>
+                        Pages
+                    </span>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+
+                </button>
+
+
+                <div class="mobile-submenu">
+
+
+                    <a href="cart.html">
+                        Cart
+                    </a>
+
+
+                    <a href="wishlist.html">
+                        Wishlist
+                    </a>
+
+
+                    <a href="checkout.html">
+                        Checkout
+                    </a>
+
+
+                    <a href="error.html">
+                        404 Error
+                    </a>
+
+
+                    <a href="shop.html">
+                        Product
+                    </a>
+
+
+                    <a href="project.html">
+                        Project
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+             MOBILE BLOG
+        ================================================== -->
+
+            <div class="mobile-dropdown">
+
+
+                <button type="button" class="mobile-dropdown-btn">
+
+                    <span>
+                        Blog
+                    </span>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+
+                </button>
+
+
+                <div class="mobile-submenu">
+
+
+                    <a href="right.html">
+                        Blog right sidebar
+                    </a>
+
+
+                    <a href="left.html">
+                        Blog left sidebar
+
+                    </a>
+
+
+                    <a href="fullwidth.html">
+                        Blog fullwidth
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- banner-section -->
+
+    <div class="banner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about-title">
+                        <h2>Latest News</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><span>blog</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-1f">
+            <img src="images/img-2.png" alt="/">
+        </div>
+        <div class="shape-2">
+            <img src="images/img-3.png" alt="/">
+        </div>
+    </div>
+
+
+
+    <!-- section-blog -->
+    <div class="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="left-side">
+                        <div class="post-1">
+                            <div class="img-post">
+                                <img src="images/img-5.jpg" alt="/">
+                            </div>
+                            <div class="social">
+                                <ul class="trust">
+                                    <li><i class="bi bi-person"></i>By <a href="#">Farmer</a></li>
+                                    <li class="bolt">Comments 35</li>
+                                    <li class="bolt">14 AUG,21</li>
+                                </ul>
+                            </div>
+                            <div class="entery">
+                                <h3><a href="#">We automatically search for andapply coupons when.</a></h3>
+                                <p>Law is a great career path if you want to build a broad skill set that includes
+                                    everything from critical
+                                    thinking and strategic planning to communications. If you love rising to a
+                                    challenge.</p>
+                            </div>
+                            <div class="post-button">
+                                <a href="#">READ MORE...</a>
+                            </div>
+                        </div>
+                        <div class="post-2">
+                            <div class="img-post">
+                                <img src="images/img-6 (1).jpg" alt="/">
+                            </div>
+                            <div class="social">
+                                <ul class="trust">
+                                    <li><i class="bi bi-person"></i>By <a href="#">Farmer</a></li>
+                                    <li class="bolt">Comments 80</li>
+                                    <li class="bolt">16 AUG,21</li>
+                                </ul>
+                            </div>
+                            <div class="entery">
+                                <h3><a href="#">How to get more traffic in your website of ecommerce.</a></h3>
+                                <p>Law is a great career path if you want to build a broad skill set that includes
+                                    everything from critical
+                                    thinking and strategic planning to communications. If you love rising to a
+                                    challenge.</p>
+                            </div>
+                            <div class="post-button">
+                                <a href="#">READ MORE...</a>
+                            </div>
+                        </div>
+                        <div class="post-3">
+                            <div class="img-post">
+                                <img src="images/img-7 (1).jpg" alt="/">
+                                <div class="video-box">
+                                    <a href="#">
+                                        <i class="bi bi-play-circle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="social">
+                                <ul class="trust">
+                                    <li><i class="bi bi-person"></i>By <a href="#">Farmer</a></li>
+                                    <li class="bolt">Comments 35</li>
+                                    <li class="bolt">14 AUG,21</li>
+                                </ul>
+                            </div>
+                            <div class="entery">
+                                <h3><a href="#">We automatically search for andapply coupons when.</a></h3>
+                                <p>Law is a great career path if you want to build a broad skill set that includes
+                                    everything from critical
+                                    thinking and strategic planning to communications. If you love rising to a
+                                    challenge.</p>
+                            </div>
+                            <div class="post-button">
+                                <a href="#">READ MORE...</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="right-side">
+                        <div class="author">
+                            <div class="author-img">
+                                <img src="images/about-widget.jpg" alt="/">
+                            </div>
+                            <div class="author-detail">
+                                <h4>Jenny Watson</h4>
+                                <p>Hi! beautiful people. I`m an authtor of this blog. Read our post - stay with us</p>
+                            </div>
+                            <div class="author-social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                        <div class="search-box">
+                            <form>
+                            <div>
+                                <input type="text" class="form-control" placeholder="Search Post..">
+                                <button type="submit"><i class="bi bi-search"></i></button>
+                            </div>
+
+                            </form>
+                        </div>
+                        <div class="related-box">
+                            <h4>Related Posts</h4>
+                            <div class="posts-box">
+                                <div class="post">
+                                    <div class="post-img">
+                                        <img src="images/b1.jpg" alt="/">
+                                    </div>
+                                    <div class="post-detail">
+                                        <h5><a href="#">We automatically search for andapply coupons when.</a></h5>
+                                        <span>14 AUG,21</span>
+                                    </div>
+                                </div>
+                                <div class="post">
+                                    <div class="post-img">
+                                        <img src="images/b2.jpg" alt="/">
+                                    </div>
+                                    <div class="post-detail">
+                                        <h5><a href="#">How to get more traffic in your website of ecommerce.</a></h5>
+                                        <span>16 AUG,21</span>
+                                    </div>
+                                </div>
+                                <div class="post">
+                                    <div class="post-img">
+                                        <img src="images/b3.jpg" alt="/">
+                                    </div>
+                                    <div class="post-detail">
+                                        <h5><a href="#">25 Rules and regulation to be successful in your business.</a></h5>
+                                        <span>18 AUG,21</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tag">
+                            <h4>Tags</h4>
+                            <ul class="tags">
+                                <li><a href="#">Flower</a></li>
+                                <li><a href="#">Hill</a></li>
+                                <li><a href="#">Honey</a></li>
+                                <li><a href="#">Forest</a></li>
+                                <li><a href="#">Queen</a></li>
+                                <li><a href="#">Manuka</a></li>
+                                <li><a href="#">Mango</a></li>
+                                <li><a href="#">Raw</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-blog">
+                            <h2>How We Can Help You!</h2>
+                            <p>labore et dolore magna aliqua.
+                                Quis ipsum suspendisse ultrices
+                                gravida. Risus commodo viverra
+                                maecenas accumsan lacus vel
+                                facilisis.</p>
+                            <a href="contact.html">Contact Us<i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-1">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo-footer">
+                            <div class="honey-logo">
+                                <img src="images/logo.png" alt="Logo">
+                            </div>
+                            <span class="logo-text-f">Annahl</span>
+                        </div>
+                        <p>Management consulting includes a
+                            broad range of activities, and the many
+                            firms and their members often define
+                            these practices.</p>
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="contact-info">
+                            <h4>Contact</h4>
+                            <ul>
+                                <li><i class="bi bi-geo-alt"></i>7 Green Lake Street Crawfordsville, IN 47933</li>
+                                <li><i class="bi bi-telephone"></i>+1 800 123 456 789</li>
+                                <li><i class="bi bi-envelope"></i>Annahl@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="account-info">
+                            <h4>My Account</h4>
+                            <ul>
+                                <li><a href="project.html">Our Projects</a></li>
+                                <li><a href="shop.html">Our Shop</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="newsletter-info">
+                            <h4>Newsletter</h4>
+                            <p>You will be notified when somthing new will be appear.</p>
+                            <div id="emailBox"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shape-1">
+                <img src="images/ChatGPT Image Sep 2, 2026, 11_46_50 AM.png" alt="">
+            </div>
+
+            <!-- Honey -->
+            <div class="shape-3">
+                <img src="images/honey-dipper-666.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyright">Copyright © 2022 Annahl by <a href="#">themepresss.</a> All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/right.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

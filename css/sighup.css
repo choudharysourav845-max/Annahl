@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+
+/* =========================
+   SIGNUP PAGE
+========================= */
+.signup-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0 0;
+}
+
+/* =========================
+   SIGNUP BOX
+========================= */
+.signup-box {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 70px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,.05);
+}
+
+/* =========================
+   HEADING
+========================= */
+
+.signup-heading {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+
+.signup-heading h1 {
+    font-size: 30px;
+
+    font-weight: 700;
+
+    color: #30180d;
+
+    margin-bottom: 20px;
+}
+
+.signup-heading p {
+    font-size: 13px;
+
+    color: #666;
+
+    margin: 0;
+    font-weight: 500;
+}
+
+
+/* =========================
+   INPUT
+========================= */
+
+.input-box {
+    position: relative;
+
+    margin-bottom: 30px;
+}
+.form-floating > .form-control {
+    height: 50px;
+    min-height: 50px;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #111;
+    box-shadow: none;
+    padding-left: 16px;
+}
+
+.form-floating > .form-control:focus {
+    border-color: #777;
+
+    box-shadow: none;
+}
+
+
+/* Label */
+
+.form-floating > label {
+    color: #555;
+
+    font-size: 15px;
+
+    padding-left: 16px;
+}
+
+
+/* =========================
+   PASSWORD
+========================= */
+
+.password-box .form-control {
+    padding-right: 55px;
+}
+.form-floating>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    padding: 13px 15px;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    pointer-events: none;
+    border: var(--bs-border-width) solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+.password-toggle {
+    position: absolute;
+
+    right: 15px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    border: none;
+
+    background: transparent;
+
+    color: #777;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    z-index: 10;
+}
+
+.password-toggle:hover {
+    color: #222;
+}
+
+
+/* =========================
+   ERROR
+========================= */
+
+.error-message {
+    position: absolute;
+
+    left: 0;
+    bottom: -21px;
+
+    font-size: 12px;
+
+    color: #dc3545;
+}
+
+.input-error {
+    border-color: #dc3545 !important;
+}
+
+
+/* =========================
+   SIGNUP BUTTON
+========================= */
+.signup-btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #c93705;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.signup-btn:hover {
+    background: #a92e04;
+}
+
+
+/* =========================
+   SOCIAL
+========================= */
+
+.social-login {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    margin-top: 32px;
+}
+.social-btn {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+
+/* Facebook */
+
+.facebook {
+    background: #3f5f9f;
+}
+
+.facebook:hover {
+    background: #304d87;
+
+    color: #fff;
+}
+
+
+/* Twitter */
+
+.twitter {
+    background: #55ace0;
+}
+
+.twitter:hover {
+    background: #3b96ca;
+
+    color: #fff;
+}
+
+
+/* LinkedIn */
+
+.linkedin {
+    background: #007bb5;
+}
+
+.linkedin:hover {
+    background: #006492;
+
+    color: #fff;
+}
+
+
+/* =========================
+   LOGIN TEXT
+========================= */
+
+.login-text {
+    text-align: center;
+
+    margin-top: 30px;
+
+    font-size: 13px;
+
+    color: #696664;
+    font-weight: 500;
+}
+
+.login-text a {
+    color: #0086c9;
+
+    text-decoration: none;
+
+    margin-left: 10px;
+
+    font-weight: 500;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 767px) {
+
+    .signup-page {
+        padding: 25px 15px;
+    }
+
+    
+    .shape-1f {
+       display: none;
+    }
+
+    .shape-2 {
+       display: none;
+    }
+    .banner-section {
+    
+    min-height: 300px;
+   
+}
+    .signup-box {
+        min-height: auto;
+
+        padding: 50px 25px;
+
+        border-radius: 10px;
+    }
+
+    .signup-heading h1 {
+        font-size: 34px;
+
+        margin-bottom: 18px;
+    }
+
+    .signup-heading p {
+        font-size: 15px;
+    }
+
+    .social-btn {
+        width: 30%;
+    }
+
+    .login-text {
+        font-size: 13px;
+    }
+
+    .login-text a {
+        margin-left: 5px;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+    .signup-box {
+        padding: 40px 18px;
+    }
+
+    .signup-heading h1 {
+        font-size: 30px;
+    }
+
+    .social-login {
+        gap: 8px;
+    }
+
+    .social-btn {
+        width: 31%;
+    }
+
+    .login-text {
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 8px;
+    }
+
+    .login-text a {
+        margin-left: 0;
+    }
+}
